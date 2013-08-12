@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Resistance Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bandResistorTxtButton4">4 band Resistor</string>
+    <string name="bandResistortxtButton5">5 Bands Resistor</string>
+    <string name="bandResistorTxtButton6">6 Bands Resistor</string>
+    <string name="title_activity_band_resistor4">BandResistor4</string>
+    <string name="DefaultResistance">0 Ohm</string>
+    <string name="DefaultTolerance">+../-..</string>
+
+    <string-array name="Resistor_Color_Band">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Grey</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="Resistor_Color_Multiplier">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Gold</item>
+        <item>Silver</item>
+    </string-array>
+    <string-array name="Resistor_Color_Tolerance">
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Grey</item>
+        <item>Gold</item>
+        <item>Silver</item>
+    </string-array>
+    <string-array name="Resistor_Color_Temperature">
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item >Blue</item>
+        <item >Violet</item>
+    </string-array>
+
+    <string name="title_activity_band_resistor5">BandResistor5</string>
+    <string name="title_activity_band_resistor6">BandResistor6</string>
+    <string name="DefaultTemperature">0 ppm/°C</string>
+
+</resources>

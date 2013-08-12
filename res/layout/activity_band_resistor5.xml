@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BandResistor5" >
+
+    <Spinner
+        android:id="@+id/Spin1Band5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Resistor_Color_Band" />
+
+    <Spinner
+        android:id="@+id/Spin2Band5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Resistor_Color_Band" />
+
+    <Spinner
+        android:id="@+id/Spin3Band5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Resistor_Color_Band" />
+
+    <Spinner
+        android:id="@+id/SpinMultiply5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Resistor_Color_Multiplier" />
+
+    <Spinner
+        android:id="@+id/spinTolerance5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:entries="@array/Resistor_Color_Tolerance" />
+
+    <TextView
+        android:id="@+id/txtVTotalResistance5"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/halfPadding"
+        android:text="@string/DefaultResistance"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtVTolerance5"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/halfPadding"
+        android:text="@string/DefaultTolerance"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
